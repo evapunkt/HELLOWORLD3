@@ -1,28 +1,65 @@
-<html>
-  <style>
-    .link_cta {
-      background: url(https://images.dog.ceo/breeds/chow/n02112137_12741.jpg) no-repeat;
-      width: 500px;
-      height: 331px;
-      border: 3px solid black; 
-    }
-    .yorkie {
-      background: url(https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2223.jpg) no-repeat;;
-      width: 285px;
-      height: 500px;
-    }
-  </style>
-  <h1>Hello World!</h1>
-  <h2>This is my header 2 tag</h2> <!-- this is an HTML code comment -->
-  <h3>This is a level-3 header tag</h3>
-  <h4>This is a level-4 header tag</h4>
-  <h5>This is a level-5 header tag</h5>
-  <h6>This is a level-6 header tag</h6>
-  <p>then I would type some text. then I would type some text. What bout a line break? <br />then I would type some text. then I would type some text. then I would type some text.
-  Here is a new line of code but the browser will not see it as a new line.</p>
-  <!-- <img src="https://images.dog.ceo/breeds/chow/n02112137_12741.jpg" width="250" height="166" alt="Three dogs on a beach, one pug in a sweater." /> -->
-  <div class="link_cta"></div>
-  <div class="yorkie"></div>
-  <div class="link_cta yorkie"></div>
-  <div class="link_cta"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .mySpan {
+        color: violet;
+        font-weight: bold;
+      }
+    </style>
+    <header>
+      <h1>Jello World!</h1>
+      <h2>This is my header 2 tag</h2>
+      <nav>
+        <!-- This is where my navigation will go-->
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h3>This is a level-3 header tag</h3>
+        <article>
+          <img
+            src="https://images.dog.ceo/breeds/chow/n02112137_12741.jpg"
+            width="250"
+            height="166"
+            alt="Three dogs on a beach, one pug in a sweater."
+          />
+          <p>
+            then I would type some text. then I would type some text. What bout
+            a line break? <br />then I would type some text. then I would type
+            some text. then I would type some text. Here is a new line of code
+            but the browser will not see it as a new line.
+            <span class="mySpan">Ladidudida! </span>
+            It doesn't matter how slowly you go as long as you don't stop.
+          </p>
+          <blockquote cite="http://some-madeup-url.com">
+            How hard can it be.
+            <cite>Anonymous</cite>
+          </blockquote>
+        </article>
+        <ul>
+          <li>This is the first item in my list</li>
+          <li>
+            This is the second item in my list, and it has a
+            <a href="https://some-madeup-url.com">LINK</a> in it!
+          </li>
+          <li>This is the third item in my list</li>
+        </ul>
+        <ol>
+          <li>First!</li>
+          <li>Second!</li>
+          <li>Third!</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <!--This is where my footer will go-->
+    </footer>
+  </body>
 </html>
