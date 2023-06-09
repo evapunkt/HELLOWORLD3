@@ -1,28 +1,137 @@
-<html>
-  <style>
-    .link_cta {
-      background: url(https://images.dog.ceo/breeds/chow/n02112137_12741.jpg) no-repeat;
-      width: 500px;
-      height: 331px;
-      border: 3px solid black; 
-    }
-    .yorkie {
-      background: url(https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2223.jpg) no-repeat;;
-      width: 285px;
-      height: 500px;
-    }
-  </style>
-  <h1>Hello World!</h1>
-  <h2>This is my header 2 tag</h2> <!-- this is an HTML code comment -->
-  <h3>This is a level-3 header tag</h3>
-  <h4>This is a level-4 header tag</h4>
-  <h5>This is a level-5 header tag</h5>
-  <h6>This is a level-6 header tag</h6>
-  <p>then I would type some text. then I would type some text. What bout a line break? <br />then I would type some text. then I would type some text. then I would type some text.
-  Here is a new line of code but the browser will not see it as a new line.</p>
-  <!-- <img src="https://images.dog.ceo/breeds/chow/n02112137_12741.jpg" width="250" height="166" alt="Three dogs on a beach, one pug in a sweater." /> -->
-  <div class="link_cta"></div>
-  <div class="yorkie"></div>
-  <div class="link_cta yorkie"></div>
-  <div class="link_cta"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/icons8-idee-64.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="neutral-theme">
+      <h1>
+        Hello My Name is <span>Eva</span>!<br />
+        I'm a Web Developer
+      </h1>
+      <a href="#about" class="header-link button">Find out more</a>
+    </header>
+    <main>
+      <section class="about primary-theme">
+        <h2>About me</h2>
+        <div class="about-container">
+          <img
+            src="./images/this-is-me.jpg"
+            alt="it's me beech"
+            class="about-img"
+          />
+          <div class="about-text">
+            <p>
+              Croissant sugar plum sweet fruitcake sugar plum chocolate cake
+              wafer jelly-o lollipop. Lemon drops pastry jelly-o toffee topping
+              I love danish sweet gummies. Bear claw marzipan ice cream apple
+              pie sesame snaps sesame snaps. Oat cake pudding croissant toffee
+              candy sweet jujubes toffee.
+            </p>
+            <p>
+              Wafer candy fruitcake chupa chups gingerbread marshmallow tootsie
+              roll ice cream candy. Sesame snaps macaroon chupa chups dragée
+              pudding halvah chupa chups apple pie caramels. Toffee powder pie I
+              love chocolate cake I love.
+            </p>
+            <p>
+              Bonbon cupcake dessert lollipop gingerbread wafer. Candy oat cake
+              croissant biscuit shortbread cupcake. Sugar plum toffee chocolate
+              bar croissant biscuit brownie oat cake sugar plum. Brownie icing
+              tootsie roll cotton candy I love I love gummies sugar plum.
+            </p>
+            <a href="#" class="button">My Resume</a>
+          </div>
+        </div>
+        <blockquote>
+          "A fantastic quote about fucking up" <cite>- Me!</cite>
+        </blockquote>
+      </section>
+      <section class="neutral-theme">
+        <h2>Projects</h2>
+        <article>
+          <div class="article-text">
+            <h3>My virtual terrarium</h3>
+            <p>
+              Chocolate bar danish apple pie jelly biscuit tiramisu. Liquorice
+              marshmallow I love bonbon cookie bonbon carrot cake icing
+              fruitcake. Marshmallow fruitcake chocolate cake tart gingerbread
+              cake.
+            </p>
+            <a href="#" class="button">See it live</a>
+            <a href="#" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="./images/my-terrarium.png"
+            alt="example of my project of a terrarium"
+            class="article-img"
+          />
+        </article>
+        <article>
+          <div class="article-text">
+            <h3>My personal website</h3>
+            <p>
+              Chocolate bar danish apple pie jelly biscuit tiramisu. Liquorice
+              marshmallow I love bonbon cookie bonbon carrot cake icing
+              fruitcake. Marshmallow fruitcake chocolate cake tart gingerbread
+              cake.
+            </p>
+            <a href="#" class="button">See it live</a>
+            <a href="#" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="./images/my-personal-website.png"
+            alt="screenshot of the header of my personal website which says: i am a cookie"
+            class="article-img"
+          />
+        </article>
+        <article>
+          <div class="article-text">
+            <h3>My cat Jennie</h3>
+            <p>
+              Chocolate bar danish apple pie jelly biscuit tiramisu. Liquorice
+              marshmallow I love bonbon cookie bonbon carrot cake icing
+              fruitcake. Marshmallow fruitcake chocolate cake tart gingerbread
+              cake.
+            </p>
+            <a href="#" class="button">See it live</a>
+            <a href="#" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="./images/jennie.png"
+            alt="my cat Jennie"
+            class="article-img"
+          />
+        </article>
+      </section>
+      <section class="contact primary-theme">
+        <h2>Contact</h2>
+        <p>if you'd like to work with me, you can drop me a message!</p>
+        <a href="mailto:email@example.com" class="button">Let's Talk</a>
+      </section>
+    </main>
+    <footer>
+      <ul class="social">
+        <li class="social-item">
+          <a href="#" class="social-link linkedin">LinkedIn</a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link twitter">twitter</a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link github">GitHub</a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link youtube">Youtube</a>
+        </li>
+      </ul>
+      <p>2023 - Portfolio design by Yours Truly</p>
+    </footer>
+  </body>
 </html>
