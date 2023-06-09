@@ -10,6 +10,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.button {
+  display: inline-block;
+  width: max-content;
+  padding: 1rem;
+  border: 2px solid var(--button-color);
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--button-color);
+}
+
+.button:hover {
+  color: var(--button-hover-color);
+  background-color: var(--button-color);
+  transition: all 0.3s ease-in-out;
+}
+
 header {
   height: 100vh;
   display: flex;
@@ -80,22 +96,6 @@ section {
   --button-hover-color: var(--primary);
 }
 
-.button {
-  display: inline-block;
-  width: max-content;
-  padding: 1rem;
-  border: 2px solid var(--button-color);
-  font-weight: bold;
-  text-decoration: none;
-  color: var(--button-color);
-}
-
-.button:hover {
-  color: var(--button-hover-color);
-  background-color: var(--button-color);
-  transition: all 0.3s ease-in-out;
-}
-
 .about {
   padding: var(--spacing);
   color: white;
@@ -117,7 +117,7 @@ section {
 
 .about-container {
   max-width: var(--max-width);
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .about-img {
